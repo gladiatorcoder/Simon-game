@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+#heading{
+    text-align: center;
+    font-size: 30px;
+}
+
+.score{
+    text-align: center;
+    height: 50px;
+}
+
+#check{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn1{
+    border-top-left-radius: 100%;
+    background-color: #07ad0c;
+    position: absolute;
+    top: 0%;
+    left:0%;
+    width: 50%;
+    height: 50%;
+}
+.btn2{
+    border-top-right-radius: 100%;
+    background-color: #c20010;
+    position: absolute;
+    top: 0%;
+    right:0%;
+    width: 50%;
+    height: 50%;
+}
+.btn3{
+    border-bottom-left-radius: 100%;
+    background-color: #121e99;
+    position: absolute;
+    bottom: 0%;
+    left:0%;
+    width: 50%;
+    height: 50%;
+}
+.btn4{
+    border-bottom-right-radius: 100%;
+    background-color: #c8e300;
+    position: absolute;
+    bottom: 0%;
+    right:0%;
+    width: 50%;
+    height: 50%;
+}
+
+.highlight{
+    background-color: black;
+}
+
+.layout{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.layout-parent{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+.circle{
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.start{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -25%);
+    z-index: 4;
+    width: 10%;
+    height: 10%;
+    cursor: pointer;
+}
+
+.start i{
+    font-size: 30px;
+}
+
+.highlight-red{
+    background-color: red;
+    transform: scale(1.1);
+}
+
+.highlight-green{
+    background-color: #69f542;
+    transform: scale(1.1);
+}
+
+.highlight-blue{
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+.highlight-yellow{
+    background-color: yellow;
+    transform: scale(1.1);
+}

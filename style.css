@@ -36,6 +36,10 @@ body{
     transition: 0.2s;
 }
 
+.btn:active{
+    outline: none;
+}
+
 .btn1{
     border-top-left-radius: 100%;
     background-color: #07ad0c;
@@ -106,15 +110,23 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-25%, -25%);
+    transform: translate(-50%, -50%);
     z-index: 4;
     width: 10%;
     height: 10%;
     cursor: pointer;
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }
 
 .start i{
     font-size: 30px;
+    transition: 900;
+}
+
+.start i:active{
+    transform: scale(1.2);
 }
 
 .highlight-red{
